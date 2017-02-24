@@ -43,6 +43,7 @@ function header_post() {
 
 function footer_post() {
   ?>
+
 </body>
 </html>
   <?php
@@ -50,4 +51,4 @@ function footer_post() {
 
 add_action('wp_head', 'header_pre', -1);
 add_action('wp_head', 'header_post', 99);
-add_action('wp_head', 'footer_post', 99);
+add_action('wp_footer', 'footer_post', 99);
