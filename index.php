@@ -21,3 +21,33 @@ add_filter( 'wpseo_use_page_analysis', '__return_false' );
 
 //verijwder admin bar
 add_filter('show_admin_bar', '__return_false');
+
+
+function header_pre() {
+  ?>
+<!DOCTYPE html>
+<html <?php language_attributes(); ?> class="no-js">
+<head>
+    <meta charset="<?php bloginfo( 'charset' ); ?>">
+    <meta name="viewport" content="width=device-width">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+  <?php
+}
+
+function header_post() {
+  ?>
+</head>
+<body <?php body_class(); ?>>
+  <?php
+}
+
+function footer_post() {
+  ?>
+</body>
+</html>
+  <?php
+}
+
+add_action('wp_head', 'header_pre', -1);
+add_action('wp_head', 'header_post', 99);
+add_action('wp_head', 'footer_post', 99);
