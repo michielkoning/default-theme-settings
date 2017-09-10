@@ -43,7 +43,6 @@ function header_pre() {
 
 function header_post() {
   ?>
-    <?php get_template_part('partials/favicons'); ?>
 </head>
 <body <?php body_class(); ?>>
   <?php
@@ -85,14 +84,10 @@ function add_edit_link_after_content( $content ) {
 add_filter( 'the_content', 'add_edit_link_after_content' );
 
 function add_defer_and_sync_attribute($tag, $handle) {
-  // add script handles to the array below
-  global $wp_scripts;
-  foreach( $wp_scripts->queue as $script ) {
-    if ($script === $handle) {
-      return str_replace(' src', ' defer async src', $tag);
-    }
+  if(is_admin()) {
+    return $tag;
   }
-  return $tag;
+  return str_replace( ' src', ' defer async src', $tag );
 }
 
 add_filter('script_loader_tag', 'add_defer_and_sync_attribute', 10, 2);
@@ -108,3 +103,15 @@ function access_menu_for_editors(){
 
 
 add_filter('admin_init', 'access_menu_for_editors');
+
+
+
+function remove_yoast_ads() {
+  echo '<style>
+    .yoast_premium_upsell_admin_block,
+    #sidebar-container {
+      display: none;
+    }
+  </style>';
+}
+add_action('admin_head', 'remove_yoast_ads');
