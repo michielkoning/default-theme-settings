@@ -92,6 +92,7 @@ function add_defer_and_sync_attribute($tag, $handle) {
 
 add_filter('script_loader_tag', 'add_defer_and_sync_attribute', 10, 2);
 
+
 function access_menu_for_editors(){
     // get the the role object
   $role_object = get_role( 'editor' );
