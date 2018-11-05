@@ -1,0 +1,241 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Adler\n"
+"POT-Creation-Date: 2018-11-05 12:08+0100\n"
+"PO-Revision-Date: 2018-11-05 12:08+0100\n"
+"Last-Translator: \n"
+"Language-Team: Michiel Koning\n"
+"Language: de_DE@formal\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: index.php:55
+msgid "To maincontent"
+msgstr "Zu Main Content"
+
+#: index.php:56
+msgid "To mainmenu"
+msgstr "Zu MainMenu"
+
+#~ msgid "By continuing to visit this website, you agree to the placement of cookies. For more information, see our "
+#~ msgstr "Durch die Verwendung dieser Seite erklären Sie sich einverstanden, dass diese Website Cookies verwendet. Mehr Info dazu in unserer "
+
+#~ msgid "privacy policy"
+#~ msgstr "Datenschutzerklärung"
+
+#~ msgid "Accept"
+#~ msgstr "Akzeptieren"
+
+#~ msgid "arrangements"
+#~ msgstr "arrangements"
+
+#~ msgid "rooms"
+#~ msgstr "zimmer"
+
+#~ msgid "Error when sending form"
+#~ msgstr "Fehler beim Formular versenden"
+
+#~ msgid "Thank you very much for your response. We will contact you as soon as possible."
+#~ msgstr "Vielen Dank für ihre Antwort. Wir werden uns so schnell wie möglich mit Ihnen in Verbindung setzen."
+
+#~ msgid "Read more"
+#~ msgstr "Mehr Info"
+
+#~ msgid "Mainmenu"
+#~ msgstr "Menü"
+
+#~ msgid "Languages"
+#~ msgstr "Sprachen"
+
+#~ msgid "Useful links"
+#~ msgstr "Nützliche Links"
+
+#~ msgid "in Lingenau, Bregenzerwald"
+#~ msgstr "in Lingenau im Bregenzerwald"
+
+#~ msgid "Our blog"
+#~ msgstr "Unsere Neuigkeiten"
+
+#~ msgid "Contact us"
+#~ msgstr "Kontakt"
+
+#~ msgid "Name"
+#~ msgstr "Name"
+
+#~ msgid "Emailaddress"
+#~ msgstr "E-mailaddress"
+
+#~ msgid "Phonenumber"
+#~ msgstr "Telefon"
+
+#~ msgid "Message"
+#~ msgstr "Nachricht"
+
+#~ msgid "Send"
+#~ msgstr "Senden"
+
+#~ msgid "Fields marked with * are required."
+#~ msgstr "Die mit * bezeichneten Felder sind erforderlich."
+
+#~ msgid "Read more about our"
+#~ msgstr "Mehr Info zum"
+
+#~ msgid "Address"
+#~ msgstr "Adresse"
+
+#~ msgid "Tel"
+#~ msgstr "Tel"
+
+#~ msgid "E-mail"
+#~ msgstr "Email"
+
+#~ msgid "Travel directions"
+#~ msgstr "Routenbeschreibung"
+
+#~ msgid "ratings"
+#~ msgstr "Bewertungen"
+
+#~ msgid "Based on"
+#~ msgstr "Basierend auf"
+
+#~ msgid "Close"
+#~ msgstr "Schliessen"
+
+#~ msgid "Facilities"
+#~ msgstr "Einrichtungen"
+
+#~ msgid "More photos"
+#~ msgstr "Mehr Fotos"
+
+#~ msgid "More info"
+#~ msgstr "Mehr Info"
+
+#~ msgid "Our arrangements"
+#~ msgstr "Unsere Arrangements"
+
+#~ msgid "Opening hours"
+#~ msgstr "Öffnungszeiten"
+
+#~ msgid "From"
+#~ msgstr "Von"
+
+#~ msgid "Follow us on"
+#~ msgstr "Folgen Sie uns auf"
+
+#~ msgid "Follow Adler on"
+#~ msgstr "Folgen Sie unserem Hotel Adler auf"
+
+#~ msgid "Prices"
+#~ msgstr "Preise"
+
+#~ msgid "Prices mentioned are total prices for the package above, including tourist tax."
+#~ msgstr "Die genannten Preise sind die Gesamtpreise für das Arrangement inkl. Kurtaxe."
+
+#~ msgid "Book now"
+#~ msgstr "Jetzt buchen"
+
+#~ msgid "Book %s"
+#~ msgstr "%s buchen"
+
+#~ msgid "Personal details"
+#~ msgstr "Persönliche Info"
+
+#~ msgid "Zipcode"
+#~ msgstr "PLZ"
+
+#~ msgid "City"
+#~ msgstr "Ort"
+
+#~ msgid "Country"
+#~ msgstr "Land"
+
+#~ msgid "Details of your holiday"
+#~ msgstr "Urlaubsinfo"
+
+#~ msgid "Number of rooms"
+#~ msgstr "Zimmeranzahl"
+
+#~ msgid "Number of adults"
+#~ msgstr "Anzahl Erwachsene"
+
+#~ msgid "Number of kids"
+#~ msgstr "Anzahl Kinder + Alter der Kinder"
+
+#~ msgid "Dates"
+#~ msgstr "Daten"
+
+#~ msgid "Date of arrival"
+#~ msgstr "Datum Ankunft"
+
+#~ msgid "Date of departure"
+#~ msgstr "Datum Abflug"
+
+#~ msgid "Remarks"
+#~ msgstr "Anmerkungen"
+
+#~ msgid "Book this arrangement"
+#~ msgstr "Buchen Sie dieses arrangement"
+
+#~ msgid "Peak season"
+#~ msgstr "Hochsaison"
+
+#~ msgid "Including breakfast"
+#~ msgstr "Frühstücksbuffet"
+
+#~ msgid "per person & night"
+#~ msgstr "pro Pers. & Nacht"
+
+#~ msgid "Half board"
+#~ msgstr "Halbpension"
+
+#~ msgid "Inter-season"
+#~ msgstr "Nebensaison"
+
+#~ msgid "Room is equipped with"
+#~ msgstr "Jedes Zimmer ist ausgestattet mit"
+
+#~ msgid "Response from our guests"
+#~ msgstr "Bewertungen unserer Gäste"
+
+#~ msgid "View our other rooms"
+#~ msgstr "Andere Zimmer ansehen"
+
+#~ msgid "Previous photo"
+#~ msgstr "Vorheriges Foto"
+
+#~ msgid "Next photo"
+#~ msgstr "Nächstes Foto"
+
+#~ msgid "Recent posts"
+#~ msgstr "Letzten Neuigkeiten"
+
+#~ msgid "p.p.p.n."
+#~ msgstr "pro Pers. & Nacht"
+
+#, fuzzy
+#~| msgid "Phonenumber"
+#~ msgid "number"
+#~ msgstr "Telefon"
+
+#, fuzzy
+#~| msgid "Country"
+#~ msgid "count"
+#~ msgstr "Land"
+
+#~ msgid "Dit is nog niet vertaald"
+#~ msgstr "Dit is vertaald yoa"
+
+#~ msgid "Dit is ook nog niet vertaald"
+#~ msgstr "Dit is vertaald yoa"
+
+#~ msgid "Volg ons op"
+#~ msgstr "Volg ons opasdasd"
+
+#~ msgid "Volg ons ssop"
+#~ msgstr "Dit komt uit de translation"

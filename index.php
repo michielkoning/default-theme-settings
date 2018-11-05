@@ -3,6 +3,12 @@
 Plugin Name: Default theme settings
 */
 
+function mk_default_theme_settings_load_textdomain() {
+  load_plugin_textdomain( 'mk_default_theme_settings', false, basename( dirname( __FILE__ ) ) . '/languages' );
+}
+add_action( 'plugins_loaded', 'mk_default_theme_settings_load_textdomain' );
+
+
 remove_action('wp_head', 'wp_generator');
 
 function setup_theme() {
@@ -45,6 +51,10 @@ function header_post() {
   ?>
 </head>
 <body <?php body_class(); ?>>
+
+  <a href="#main" class="skip-link"><?php _e('To maincontent', 'mk_default_theme_settings'); ?></a>
+  <a href="#menu" class="skip-link"><?php _e('To mainmenu', 'mk_default_theme_settings'); ?></a>
+
   <?php
 }
 
