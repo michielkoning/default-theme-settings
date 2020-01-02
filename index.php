@@ -109,15 +109,6 @@ function add_edit_link_after_content($content)
 }
 add_filter('the_content', 'add_edit_link_after_content');
 
-function add_defer_and_sync_attribute($tag, $handle)
-{
-    if (is_admin()) {
-        return $tag;
-    }
-    return str_replace(' src', ' defer async src', $tag);
-}
-
-add_filter('script_loader_tag', 'add_defer_and_sync_attribute', 10, 2);
 
 function access_menu_for_editors()
 {
